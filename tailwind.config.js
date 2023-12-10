@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "green":"#39DB4A",
+        "orange":"#FD532F",
         "red":"#FF6868",
         "secondary":"#555",
         "primary":"#FCFCFC"
@@ -17,6 +18,6 @@ export default {
       // }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
